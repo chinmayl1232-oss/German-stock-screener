@@ -1,5 +1,6 @@
 name: Run Wave-2 Scanner
 
+
 on:
   schedule:
     # 17:00 UTC = 18:00 Frankfurt (CET) / 19:00 Frankfurt (CEST summer)
