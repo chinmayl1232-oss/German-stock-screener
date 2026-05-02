@@ -1,18 +1,18 @@
-# “””
-German Market - Wave 2 Scanner (40W EMA)
+#“””
+#German Market - Wave 2 Scanner (40W EMA)
 
-Scans DAX/MDAX/SDAX/TecDAX stocks for “second wave” setups close to 40W EMA.
-Outputs  data.json  for the iOS web app hosted on GitHub Pages.
+#Scans DAX/MDAX/SDAX/TecDAX stocks for “second wave” setups close to 40W EMA.
+#Outputs  data.json  for the iOS web app hosted on GitHub Pages.
 
-Auto-discovers tickers by scraping Wikipedia index pages (no API key needed).
+#Auto-discovers tickers by scraping Wikipedia index pages (no API key needed).
 
-Usage:
-pip install yfinance pandas rich requests beautifulsoup4
-python scanner.py
+#Usage:
+#pip install yfinance pandas rich requests beautifulsoup4
+#python scanner.py
 
-Outputs:
-data.json  — consumed by index.html web app
-“””
+#Outputs:
+#data.json  — consumed by index.html web app
+#“””
 
 import sys, json, datetime, warnings
 warnings.filterwarnings(“ignore”)
