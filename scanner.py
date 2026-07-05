@@ -1,18 +1,17 @@
-"""
-German Market - Wave 2 Scanner (40W EMA)
+#
+#German Market - Wave 2 Scanner (40W EMA)
+#
+#Scans DAX/MDAX/SDAX/TecDAX stocks for “second wave” setups close to 40W EMA.
+#Outputs  data.json  for the iOS web app hosted on GitHub Pages.
+#
+#Auto-discovers tickers by scraping Wikipedia index pages (no API key needed).
+#
+#Usage:
+#pip install yfinance pandas rich requests beautifulsoup4
+#python scanner.py
 
-Scans DAX/MDAX/SDAX/TecDAX stocks for “second wave” setups close to 40W EMA.
-Outputs  data.json  for the iOS web app hosted on GitHub Pages.
-
-Auto-discovers tickers by scraping Wikipedia index pages (no API key needed).
-
-Usage:
-pip install yfinance pandas rich requests beautifulsoup4
-python scanner.py
-
-Outputs:
-data.json  — consumed by index.html web app
-"""
+#Outputs:
+#data.json  — consumed by index.html web app
 
 import sys, json, datetime, warnings
 warnings.filterwarnings("ignore")
@@ -209,13 +208,13 @@ tk = yf.Ticker(ticker)
     }
 except Exception as e:
     return None
-```
+
 
 def main():
 console = Console()
 run_date = datetime.date.today().isoformat()
 
-```
+
 console.print(f"\n[bold cyan]🇩🇪  German Wave-2 Scanner[/bold cyan]  [dim]{run_date}[/dim]\n")
 
 # ── discover universe ──────────────────────────────────────────────────
@@ -285,7 +284,7 @@ console.print(t)
 
 top = results[0]
 console.print(f"[bold cyan]Top pick:[/bold cyan] {top['ticker']} — Score {top['setup_score']}, +{top['dist_pct']}% above 40W EMA, RS {top['rs']}\n")
-```
+
 
 if **name** == “**main**”:
 main()
