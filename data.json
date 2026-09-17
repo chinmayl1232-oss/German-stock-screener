@@ -1,14 +1,53 @@
 {
-  "run_date": "2026-09-16",
+  "run_date": "2026-09-17",
   "universe_size": 90,
   "results": [
+    {
+      "ticker": "NDA",
+      "name": "Aurubis",
+      "sector": "Metals",
+      "price": 168.6,
+      "ema40w": 165.42,
+      "dist_pct": 1.9,
+      "wave1_gain": 112.0,
+      "wave1_low": 101.98,
+      "wave1_high": 216.2,
+      "pullback_low": 167.7,
+      "pullback_pct": 22.4,
+      "high_52w": 219.2,
+      "rs": 100,
+      "vol_ratio": 0.7,
+      "setup_score": 81.8,
+      "chart_data": [
+        186.6,
+        205.2,
+        198.9,
+        216.2,
+        212.2,
+        196.7,
+        195.0,
+        184.6,
+        180.5,
+        170.4,
+        171.1,
+        178.9,
+        181.6,
+        173.7,
+        167.7,
+        179.0,
+        178.9,
+        174.0,
+        173.3,
+        168.6
+      ]
+    },
     {
       "ticker": "NDX1",
       "name": "Nordex",
       "sector": "Other",
-      "price": 38.98,
-      "ema40w": 37.84,
-      "dist_pct": 3.0,
+      "price": 40.3,
+      "ema40w": 37.91,
+      "dist_pct": 6.3,
       "wave1_gain": 125.0,
       "wave1_low": 21.56,
       "wave1_high": 48.52,
@@ -16,8 +55,8 @@
       "pullback_pct": 24.2,
       "high_52w": 50.0,
       "rs": 100,
-      "vol_ratio": 1.22,
-      "setup_score": 83.0,
+      "vol_ratio": 1.19,
+      "setup_score": 76.8,
       "chart_data": [
         46.74,
         45.28,
@@ -38,16 +77,16 @@
         38.5,
         36.76,
         39.38,
-        38.98
+        40.3
       ]
     },
     {
       "ticker": "JEN",
       "name": "Jenoptik",
       "sector": "Other",
-      "price": 38.7,
-      "ema40w": 34.96,
-      "dist_pct": 10.7,
+      "price": 39.5,
+      "ema40w": 35.0,
+      "dist_pct": 12.9,
       "wave1_gain": 174.6,
       "wave1_low": 17.1,
       "wave1_high": 46.96,
@@ -55,8 +94,8 @@
       "pullback_pct": 20.6,
       "high_52w": 47.46,
       "rs": 100,
-      "vol_ratio": 1.2,
-      "setup_score": 67.9,
+      "vol_ratio": 1.3,
+      "setup_score": 64.6,
       "chart_data": [
         35.53,
         44.11,
@@ -77,64 +116,25 @@
         40.14,
         40.12,
         41.28,
-        38.7
-      ]
-    },
-    {
-      "ticker": "BC8",
-      "name": "Bechtle",
-      "sector": "IT services",
-      "price": 34.72,
-      "ema40w": 33.93,
-      "dist_pct": 2.3,
-      "wave1_gain": 74.5,
-      "wave1_low": 25.19,
-      "wave1_high": 43.96,
-      "pullback_low": 25.19,
-      "pullback_pct": 42.7,
-      "high_52w": 43.96,
-      "rs": 25.1,
-      "vol_ratio": 1.39,
-      "setup_score": 66.5,
-      "chart_data": [
-        30.6,
-        28.84,
-        29.88,
-        32.68,
-        31.56,
-        29.98,
-        30.5,
-        30.82,
-        31.62,
-        30.56,
-        30.28,
-        31.64,
-        36.1,
-        37.6,
-        34.64,
-        35.5,
-        38.0,
-        36.24,
-        35.56,
-        34.72
+        39.5
       ]
     },
     {
       "ticker": "KBX",
       "name": "Knorr-Bremse",
       "sector": "Manufacturing",
-      "price": 103.6,
-      "ema40w": 99.42,
-      "dist_pct": 4.2,
+      "price": 105.7,
+      "ema40w": 99.52,
+      "dist_pct": 6.2,
       "wave1_gain": 47.6,
       "wave1_low": 76.7,
       "wave1_high": 113.19,
       "pullback_low": 94.06,
       "pullback_pct": 16.9,
       "high_52w": 113.19,
-      "rs": 81.5,
-      "vol_ratio": 1.06,
-      "setup_score": 65.8,
+      "rs": 88.8,
+      "vol_ratio": 1.01,
+      "setup_score": 64.1,
       "chart_data": [
         103.0,
         102.1,
@@ -155,16 +155,16 @@
         106.5,
         104.3,
         101.9,
-        103.6
+        105.7
       ]
     },
     {
       "ticker": "SDF",
       "name": "K+S",
       "sector": "Mining (fertilizer and salt)",
-      "price": 16.67,
+      "price": 16.57,
       "ema40w": 14.63,
-      "dist_pct": 13.9,
+      "dist_pct": 13.3,
       "wave1_gain": 68.1,
       "wave1_low": 10.81,
       "wave1_high": 18.18,
@@ -172,8 +172,8 @@
       "pullback_pct": 27.7,
       "high_52w": 18.18,
       "rs": 100,
-      "vol_ratio": 1.0,
-      "setup_score": 60.5,
+      "vol_ratio": 0.62,
+      "setup_score": 59.8,
       "chart_data": [
         15.33,
         15.47,
@@ -194,16 +194,16 @@
         16.33,
         16.83,
         16.59,
-        16.67
+        16.57
       ]
     },
     {
       "ticker": "TMV",
       "name": "TeamViewer",
       "sector": "Software",
-      "price": 6.53,
+      "price": 6.47,
       "ema40w": 6.17,
-      "dist_pct": 5.7,
+      "dist_pct": 4.9,
       "wave1_gain": 109.4,
       "wave1_low": 4.2,
       "wave1_high": 8.81,
@@ -211,8 +211,8 @@
       "pullback_pct": 52.3,
       "high_52w": 8.81,
       "rs": 0,
-      "vol_ratio": 0.54,
-      "setup_score": 52.4,
+      "vol_ratio": 0.51,
+      "setup_score": 53.6,
       "chart_data": [
         5.51,
         5.47,
@@ -233,14 +233,14 @@
         7.18,
         6.86,
         6.36,
-        6.53
+        6.47
       ]
     },
     {
       "ticker": "FRE",
       "name": "Fresenius Medical Care",
       "sector": "Healthcare",
-      "price": 46.14,
+      "price": 46.12,
       "ema40w": 43.43,
       "dist_pct": 6.2,
       "wave1_gain": 39.6,
@@ -249,9 +249,9 @@
       "pullback_low": 36.27,
       "pullback_pct": 28.4,
       "high_52w": 50.71,
-      "rs": 33.6,
-      "vol_ratio": 1.09,
-      "setup_score": 50.0,
+      "rs": 31.0,
+      "vol_ratio": 0.73,
+      "setup_score": 47.5,
       "chart_data": [
         39.85,
         37.75,
@@ -272,7 +272,7 @@
         45.85,
         43.63,
         45.04,
-        46.14
+        46.12
       ]
     }
   ]
